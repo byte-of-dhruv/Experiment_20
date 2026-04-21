@@ -51,4 +51,5 @@ Statistical Calculations
 	Active Cases Formula: Confirmed - Deaths - Recovered. This derived metric represents the current burden on the healthcare system at any given time.
 
 
-Conclusion - Through this experiment, we successfully processed a large-scale COVID-19 dataset to extract meaningful insights.
+Conclusion - 
+	Through this experiment, we successfully processed a large-scale COVID-19 dataset to extract meaningful insights.
