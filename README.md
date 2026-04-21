@@ -2,6 +2,7 @@
 
 Aim - Perform a comprehensive data analysis on the global COVID-19 dataset.
 
+
 Theory - Data analysis involves inspecting, cleansing, transforming, and modeling data to discover useful information and support decision-making. In this experiment, we perform Exploratory Data Analysis (EDA) on a global COVID-19 dataset.
 
 Key concepts involved include:
@@ -13,6 +14,7 @@ Feature Engineering: Creating new metrics like 'Active Cases' from existing colu
 Aggregation: Grouping data by geographical regions or time to see macro trends.
 
 Data Visualization: Using Choropleth maps and time-series plots to identify hotspots and growth rates.
+
 
 Data Manipulation (Pandas)
 
@@ -34,6 +36,7 @@ sort_values(): Reorders the data based on a specific column (e.g., sorting count
 
 fillna(): Handles missing data by replacing NaN values with a specified string, such as "Unknown".
 
+
 Data Visualization (Plotly Express)
 
 px.choropleth(): Creates a thematic map where geographic areas are colored in proportion to a statistical variable (Confirmed or Recovered cases).
@@ -42,8 +45,10 @@ locationmode="country names": Automatically maps country strings to coordinates.
 
 color_continuous_scale: Defines the gradient (e.g., 'reds' for danger/confirmed, 'greens' for recovery).
 
+
 Statistical Calculations
 
 Active Cases Formula: Confirmed - Deaths - Recovered. This derived metric represents the current burden on the healthcare system at any given time.
+
 
 Conclusion - Through this experiment, we successfully processed a large-scale COVID-19 dataset to extract meaningful insights.
